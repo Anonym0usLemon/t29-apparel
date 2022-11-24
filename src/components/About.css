@@ -1,0 +1,15 @@
+.about-body h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-body p {
+    text-align: center;
+    margin: 20px;
+}
+
+.about-body {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px;
+}

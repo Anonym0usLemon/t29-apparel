@@ -1,0 +1,111 @@
+/* Font Imports */ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pangolin&display=swap');
+
+/******************************************************************************
+            Superior Service Section
+/******************************************************************************/
+
+.body {
+    margin-top: 40px;
+}
+
+.slideShow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.about {
+    background-image: url("winter-background.jpeg");
+    height: 190px;
+    margin-top: 20px;
+}
+
+.about h1 {
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Pangolin', cursive;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.about p {
+    text-align: left;
+    font-family: 'Pangolin', cursive;
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+
+}
+
+.service-section-content {
+    display: flex;
+}
+
+.service-section-content p {
+    margin-top: 10px;
+    margin-right: 25%;
+}
+
+.contact-form {
+    margin-right: 100px;
+}
+
+.contact-form h2 {
+    width: 155px;
+    font-weight: bold;
+    position: relative;
+    right: 115px;
+    top: 15px;
+}
+
+.contact-form button {
+    background-color: rgba(46, 46, 46, 1);
+    color: white;
+    padding: 15px;
+    position: relative;
+    right: 90px;
+    top: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/******************************************************************************
+            Explore our Instagram Section
+/******************************************************************************/
+
+
+.instagram {
+    background-image: url("jungle-background.jpeg");
+    margin-top: 20px;
+    height: 180px;
+}
+
+.instagram-images{
+    display: flex;
+    justify-content: space-around;
+}
+.instagram-images img{
+    width: 120px;
+}
+
+.instagram-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.instagram-title a {
+    margin-right: 20px;
+}
+
+.instagram-title h1 {
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
