@@ -1,3 +1,6 @@
+/* go to https://www.bing.com/visualsearch to find better background images */ 
 body {
     background-image: url("./page-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
 }

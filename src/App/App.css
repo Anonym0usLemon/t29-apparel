@@ -23,10 +23,29 @@ time, mark, audio, video {
    vertical-align: baseline;
 }
 
+.page-container {
+	display: flex;
+	justify-content: center;
+}
+
+.before {
+	width: 200px;
+    background-color: transparent;
+    box-shadow: inset -20px 0px 20px 0px black;
+}
+
+.after {
+	width: 200px;
+    background-color: transparent;
+    box-shadow: inset 20px 0px 20px 0px black;
+}
+
 .page-body {
-	margin-left: 300px;
-	margin-right: 300px;
 	background-color: rgba(119, 126, 113) !important;
+	box-shadow: 20px 0px 20px 0px black;
+	max-width: 900px;
+	min-height: 100vh;
+
 }
 
 body {
@@ -180,3 +199,4 @@ footer div {
 .footer-links a {
 	color: white;
 }
+
