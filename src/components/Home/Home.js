@@ -6,15 +6,25 @@ import image2 from "./image2.jpeg";
 import image3 from "./image3.jpeg";
 import image4 from "./image4.jpeg";
 import image5 from "./image5.jpeg";
+import slide1 from "./slides/slide1.jpeg"; 
 
 class Home extends Component {
     render() {
         return (
 
-            <div className="body">         { /* <!-- TODO: Make this into a slideshow.. */ }
-                <img src={logo} alt="it's broken..." className="slideShow" />
-            
-            { /*<!-- About Section --> */ }
+            <div className="body">         
+                
+                { /* <!-- Slideshow section */ }
+
+                <div className="slideshow">
+                    <div className="image-holder">
+                        <img className="slides" src={slide1}/> 
+                    </div>
+                { /* <!-- TODO: Make this into a slideshow.. */ }
+                </div>
+
+                { /* <!-- About Section --> */ }
+                
                 <div className="about">
                         <h1>Superior Service, Personalized Attention</h1>
                     <div className="service-section-content">
@@ -32,6 +42,7 @@ class Home extends Component {
                 </div>
             
             { /* <!-- Instagram Section --> */ }
+                
                 <div className="instagram">
                     <div className="instagram-title">
                         <h1>Explore our Instagram</h1>
