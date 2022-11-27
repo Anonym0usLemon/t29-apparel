@@ -56,9 +56,9 @@ class App extends Component {
 					</div>
 					<footer>
 						<div className="footer-links">
-							<a href="#">T29 Apparel</a>
+							<a className="t29" href="#">T29 Apparel</a>
 							<br/>
-							<a href="#">Support</a>
+							<a className="support" href="#">Support</a>
 						</div>
 						<div className="newsletter">
 							<h6>Sign up for our newsletter</h6>

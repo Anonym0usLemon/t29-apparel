@@ -6,6 +6,7 @@ import image2 from "./image2.jpeg";
 import image3 from "./image3.jpeg";
 import image4 from "./image4.jpeg";
 import image5 from "./image5.jpeg";
+
 import slide1 from "./slides/slide1.jpeg"; 
 
 class Home extends Component {
@@ -36,7 +37,7 @@ class Home extends Component {
                         </p>
                         <div className="contact-form">
                             <h2>Need A Custom Shirt?</h2>
-                            <button>Contact Us</button>
+                            <button>CONTACT US</button>
                         </div>
                     </div>
                 </div>

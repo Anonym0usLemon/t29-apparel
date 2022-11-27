@@ -1,5 +1,8 @@
 /* Font Imports */ 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 
 /******************************************************************************
             Slideshow 
@@ -40,53 +43,69 @@
     font-weight: bold;
     text-align: left;
     text-decoration: underline;
-    font-size: 25px;
-    font-family: 'Pangolin', cursive;
+    font-size: 22px;
+	font-family: 'Noto Serif', serif;
     position: relative;
-    top: 30px;
+    top: 20px;
     left: 20px;
 }
 
 .about p {
     text-align: left;
-    font-family: 'Pangolin', cursive;
-    font-size: 14px;
+	font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 12px;
     position: relative;
-    top: 35px;
+    top: 30px;
     left: 20px;
 
 }
 
 .service-section-content {
+    position: relative;
+    width: 700px;
+    height: 300px;
     display: flex;
 }
 
-.service-section-content p {
-    margin-top: 10px;
-    margin-right: 25%;
-}
 
 .contact-form {
-    margin-right: 100px;
+    position: relative;
+    left: 110px;
+    top: 20px;
 }
 
 .contact-form h2 {
-    width: 155px;
+    width: 300px;
     font-weight: bold;
     position: relative;
-    right: 115px;
-    top: 15px;
+    left: 55px;
+    bottom: 16.5px;
+    font-family: 'Passion One', cursive;
+    font-weight: lighter;
+    font-size: 28px;
 }
 
 .contact-form button {
     background-color: rgba(46, 46, 46, 1);
+    border: none;
     color: white;
-    padding: 15px;
-    position: relative;
-    right: 90px;
-    top: 35px;
+    padding: 12px 49px;
+    text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Passion One', cursive;
+    position: relative;
+    left: 54px;
+}
+
+.contact-form button:hover {
+    border: solid white;
+    text-decoration: underline;
 }
 
 /******************************************************************************
@@ -97,7 +116,7 @@
 .instagram {
     background-image: url("jungle-background.jpeg");
     margin-top: 20px;
-    height: 180px;
+    height: 190px;
 }
 
 .instagram-images{
@@ -116,10 +135,23 @@
 
 .instagram-title a {
     margin-right: 20px;
+    font-family: 'Passion One', cursive;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+
+.instagram-title a:hover {
+    text-decoration: underline;
 }
 
 .instagram-title h1 {
     margin-left: 10px;
     font-weight: bold;
-    text-decoration: underline;
+    font-family: 'Passion One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    position: relative;
+    top: 5px;
 }
